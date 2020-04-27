@@ -4,12 +4,20 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "client": "cd client && npm run start",
+    "express": "^4.17.1",
+    "heroku-postbuild": "npm run build",
+    "install": "cd client && npm install",
     "react": "^16.2.0",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.2.0",
     "react-mdl": "^1.11.0",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.0"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.0",
+    "seed": "node scripts/seedUserDB.js",
+    "seed2": "node scripts/seedMovie.js",
+    "server": "nodemon server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\" \"npm run seed\"  \"npm run seed2\""
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,6 +25,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:3001/",
   "description": "search for movie",
   "main": "index.js",
   "devDependencies": {},
