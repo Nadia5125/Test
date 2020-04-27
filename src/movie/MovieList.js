@@ -1,17 +1,10 @@
 import React from 'react';
 import Movie from './Movie';
 
-
-
-
-
-
-
+//for mivie info
 const MovieList = (props) => {
     return (
-        <div className="container">    
-            <div className="row">
-                <div className="col m12">    
+        <div className="row" style={{position: 'relative', width: '80%', left: '200px'}}>      
                 {
                 props.movies.map((movie, i) => {
                     return (
@@ -19,8 +12,6 @@ const MovieList = (props) => {
                     )
                 })
                 }
-                </div>
-            </div>
         </div>
     )
 }

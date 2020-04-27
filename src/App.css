@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+/* 
+* {
+  width: 0 auto;
+  margin: 0 auto;
+  padding: 0 auto;
+} */
+
+
+.header-color {background: #C33764;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgb(47, 11, 105), #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgb(44, 29, 113), rgb(106, 11, 119)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.projects-grid {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+/* contact page css */
+
+.contact-body {
+  position: relative;
+  /* margin: auto;
+  position: fixed; */
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 2em;   
+  right: 60px; 
+}
+
+h3 {
+  position: relative;
+  right: 68px;
+}
+
+
+
+.contact-grid {
+  /* text-align: center; */
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+  font-family: 'Italic';
+}
+
+.contact-grid h2 {
+  /* font-family: 'Anton', sans-serif; */
+  font-family: 'Italic';
+}
+
+.contact-grid p {
+  /* font-family: 'Oxygen', sans-serif; */
+  font-family: 'Italic';
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  position: relative;
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+.contact-list {
+  position: relative;
+  left: 170px;
+}
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+  border-bottom-right-radius: 120px;
+  /* border-bottom-right-radius: 10px; */
+  border-top-left-radius: 190px;
+  border-top-right-radius: 15px;
+  top: 200px;
+}
+
+.contact {
+  position: relative;
+  font-family: Italic;
+  left: 100px;
+  top: 30px;
+}
+
+.banner-text {
+  background-color: rgba(0, 0, 0, 0.829);
+  opacity: .8;
+  width: 55%;
+  height: 45%;
+  margin: 10px;
+  margin-left: 185px;
+  border-radius: 10px;    
+  margin-bottom: 80px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 100%;  
+  margin: 5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  font-size: 9px;
+  margin-top: 30px;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+
+/*project page*/
+.projects-grid {
+  margin: 100px;
 }
