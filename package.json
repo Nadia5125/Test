@@ -16,8 +16,7 @@
     "react-scripts": "1.1.0",
     "seed": "node scripts/seedUserDB.js",
     "seed2": "node scripts/seedMovie.js",
-    "server": "nodemon server.js",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\" \"npm run seed\"  \"npm run seed2\""
+    "server": "nodemon server.js"    
   },
   "scripts": {
     "start": "react-scripts start",
