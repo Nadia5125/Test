@@ -13,10 +13,7 @@
     "react-dom": "^16.2.0",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.0",
-    "seed": "node scripts/seedUserDB.js",
-    "seed2": "node scripts/seedMovie.js",
-    "server": "nodemon server.js"    
+    "react-scripts": "1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
