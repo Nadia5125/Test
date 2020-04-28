@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content, BrowserRouter } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
-
+// import MovieApp from '../src/movie/MovieApp';
 
 //this connection with the navigationbar
 class App extends Component {
@@ -19,6 +19,8 @@ class App extends Component {
                 <Link style={{fontFamily: 'Italic'}} to="/login">Login</Link>
                 <Link style={{fontFamily: 'Italic'}} to="/contact">Logout</Link>
                 <Link style={{fontFamily: 'Italic'}} to="/movieApp">MovieApp</Link>
+                 {/* <link exact path="/movieApp"  component={MovieApp}></link> />   */}
+                
             </Navigation>
         </Header>
 

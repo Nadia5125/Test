@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, Button } from 'react-mdl';
 import './home.css';
 
 
@@ -10,7 +10,7 @@ class Home extends Component {
         <Grid className="home-grid">
           <Cell col={12}>
                        
-        <div className="container text-center" style={{position: 'relative', top: '200px'}}>
+        <div className="container text-center" style={{position: 'relative', top: '300px'}}>
             <div className="body-holder">
                                 
                 <h1>Searchcury</h1>
@@ -24,7 +24,7 @@ class Home extends Component {
                 <a
                 className="App-link"
                 href="./movieApp">                
-                <button className="btn" style={{width: '30%', height:'50px', color: 'white', backgroundColor: 'rgba(89, 8, 109, 0.688)', borderColor: 'rgba(89, 8, 109, 0.688)'}}>Search For Movie</button>
+                <Button className="btn" style={{width: '30%', height:'50px', color: 'white', backgroundColor: 'rgba(89, 8, 109, 0.688)', borderColor: 'rgba(89, 8, 109, 0.688)'}}>Search For Movie</Button>
                 </a>   
             </div>               
 

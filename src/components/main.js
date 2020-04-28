@@ -16,6 +16,7 @@ const Main = () => (
     <Route path="/contact" component={Contact} />
     <Route path="/login" component={Login} />
     <Route path="/signup" component={Signup} />
+    {/* <Route path="./movi/movieApp" component={MovieApp} /> */}
     {/* <Route path="./movie/MovieApp" component={MovieApp} /> */}
   </Switch>
 )

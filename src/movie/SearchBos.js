@@ -13,7 +13,7 @@ const SearchBox = (props) => {
                             <input style={{width: '50%', height: '35px', padding: '10px'}} placeholder="Search movie here" onChange={props.handleChange} id="first_name2" type="text" class="validate" />                       
                         </div>  
                     </Form>
-                </section>                
+                </section>        
             </div>
         </div>
         

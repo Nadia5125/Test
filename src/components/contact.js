@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import { Grid, Cell, List, ListItem, ListItemContent, Button } from 'react-mdl';
 import App from '../App';
 import './contact.css';
 
@@ -12,12 +12,12 @@ class Contact extends Component {
   render() {
     return(
 
-      <div className="logout-body">
+      <div className="contact-body">
         <Grid className="logout-grid">
           <Cell col={6}>  
-                
-          <div className="card text-center" style={{left: '500px', top: '200px', width: '80%'}}>
-            <h3 style={{position: 'relative', left: '2px', fontFamily: 'Italic', color: 'black'}}>You are Log Out</h3>
+               
+          <div className="card text-center" style={{left: '500px', top: '200px', width: '80%', height: '60px'}}>
+            <h3 style={{position: 'relative', left: '2px', fontFamily: 'Italic', color: 'black', top: '15px'}}>You are Log Out</h3>
            
           </div>
           
@@ -25,7 +25,7 @@ class Contact extends Component {
             <form>
               <div className="contact" style={{color:'black'}}>               
                 <div className="form-group text-center" style={{color: 'black'}}>                    
-                  <button style={{position: 'relative', width: '400px', height: '40px', right: '90px', top: '30px', backgroundColor: 'rgba(89, 8, 109, 0.688)'}} type="submit" className="btn btn-primary">Logout</button>
+                  <Button style={{position: 'relative', width: '400px', height: '40px', right: '90px', top: '30px', backgroundColor: 'rgba(89, 8, 109, 0.688)'}} type="submit" className="btn btn-primary">Logout</Button>
                 </div>           
               </div>
             </form>          

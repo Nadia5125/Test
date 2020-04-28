@@ -6,6 +6,8 @@ import registerServiceWorker from './registerServiceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import { BrowserRouter } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 ReactDOM.render(
   <BrowserRouter>

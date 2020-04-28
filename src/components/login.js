@@ -12,8 +12,8 @@ class Login extends Component {
         <Grid className="login-grid">
           <Cell>  
               
-          <div className="card text-center" style={{left: '500px', top: '200px', width: '120%'}}>
-            <h3 style={{position: 'relative', left: '2px', fontFamily: 'Italic', color: 'black'}}>Login</h3>
+          <div className="card text-center" style={{left: '500px', top: '200px', width: '120%', height: '60px'}}>
+            <h3 style={{position: 'relative', left: '2px', fontFamily: 'Italic', color: 'black', top: '15px'}}>Login</h3>
            
           </div>
           
@@ -30,7 +30,7 @@ class Login extends Component {
                     <br></br>
                     <input style={{width: '400px', height: '30px'}} type="email" className="form-control" aria-describedby="emailHelp" />
                     <br></br>
-                     <button style={{width: '400px', height: '40px', backgroundColor: 'rgba(89, 8, 109, 0.688)'}} type="submit" className="btn btn-primary">Submit</button>
+                     <Button style={{width: '400px', height: '40px', backgroundColor: 'rgba(89, 8, 109, 0.688)'}} type="submit" className="btn btn-primary">Submit</Button>
                 </div>
                 
                
